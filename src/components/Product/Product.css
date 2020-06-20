@@ -1,0 +1,33 @@
+.Product {
+  width: 280px;
+  border-radius: 0.325rem;
+  overflow: hidden;
+  background: #333;
+  color: #fff;
+  margin: 1rem auto;
+  box-shadow: 0 2px 10px #999;
+  position: relative;
+}
+
+.Product img {
+  width: 100%;
+}
+
+.Product .Product-price,
+.Product .Product-total {
+  margin: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.Product button {
+  position: absolute;
+  bottom: 2rem;
+  right: 0.5rem;
+  background: #fff;
+  border: 3px solid #777;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}

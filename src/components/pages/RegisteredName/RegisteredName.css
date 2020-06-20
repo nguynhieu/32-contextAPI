@@ -1,0 +1,35 @@
+.RegisteredNamePage {
+  min-height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #666;
+}
+
+.RegisteredNamePage-action {
+  display: flex;
+  position: relative;
+}
+
+.RegisteredNamePage-action .error {
+  position: absolute;
+  top: -80%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(244, 247, 62);
+}
+
+.RegisteredNamePage input {
+  padding: 0.5rem 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.RegisteredNamePage button {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
